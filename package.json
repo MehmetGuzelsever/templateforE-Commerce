@@ -1,0 +1,25 @@
+{
+  "name": "templateecommerce",
+  "version": "1.0.0",
+  "description": "Template for E-Commerce Lesson",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "E-Commerce"
+  ],
+  "author": "Mehmet Guzelsever",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.11",
+    "morgan": "^1.9.1",
+    "require-dir-all": "^0.4.15"
+  }
+}
