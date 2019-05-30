@@ -65,3 +65,6 @@ router.post('/url', function(req, res) {
         }
     })
 })
+
+//Export Router
+module.exports=router;
